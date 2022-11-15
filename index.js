@@ -219,7 +219,6 @@ var ParticlePool = (function () {
 
     // clear canvas
     context.clearRect(0, 0, canvas.width, canvas.height);
-
     // create new particles
     var amount = particleRate * deltaTime - 2;
     for (var i = 0; i < amount; i++) {
